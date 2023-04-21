@@ -7,5 +7,11 @@ public class InstanceVariablesDemo {
         System.out.println(obj1.age);
         System.out.println(obj1.name);
         System.out.println(obj1.email);
+        
+
+        InstanceVariablesDemo obj2 = new InstanceVariablesDemo();
+        System.out.println(obj2.age);
+        System.out.println(obj2.name);
+        System.out.println(obj2.email);
     }
 }
